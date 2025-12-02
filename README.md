@@ -12,12 +12,18 @@ React를 활용하여 만든 메모장SPA 입니다.
 - npm 또는 yarn  
 
 ### 설치  
+
+1. 레파지토리를 다운받습니다.
 ```bash
 git clone https://github.com/jinjini000/Notepad_SPA.git
 ```
+
+2. 해당 레파지토리로 경로를 변경합니다.
 ```bash
 cd Notepad_SPA
 ```
+
+3. 필요한 모듈을 packge.json을 통해 다운받습니다.
 ```bash
 npm install
 ```
