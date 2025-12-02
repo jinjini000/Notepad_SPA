@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FaTrashAlt, FaEdit, FaCheck } from "react-icons/fa";
 import styles from "./Memo.module.css";
-
+//ㅎㅎ
 export default function Memo({ memo, onDelete, onUpdate }) {
   const { title, text } = memo;
 
