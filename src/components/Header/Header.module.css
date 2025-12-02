@@ -1,0 +1,78 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  padding: 12px 18px;
+
+  border-bottom: 1px solid #ddd;
+  background-color: #fafafa;
+
+  font-size: 1.1rem;
+}
+
+.header p {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+/* 검색 영역 */
+.form {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.form input {
+  width: 180px;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.form input:focus {
+  outline: none;
+  border-color: #777;
+}
+
+/* 검색 버튼 */
+.button_a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+
+  cursor: pointer;
+  background: #e4e4e4;
+  transition: background 0.2s;
+  font-size: 1rem;
+}
+
+.button_a:hover {
+  background: #d4d4d4;
+}
+
+/* 글쓰기 / 메모보기 버튼 */
+.header > button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  background-color: #0078ff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background 0.2s;
+}
+
+.header > button:hover {
+  background-color: #005fcc;
+}

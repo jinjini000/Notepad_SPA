@@ -1,0 +1,61 @@
+.memo {
+  position: relative; /* 버튼 위치의 기준이 되는 부모 */
+  padding: 10px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.div p {
+  white-space: pre-wrap;
+}
+
+.editTextarea {
+  width: 100%;
+  padding: 6px;
+  resize: vertical;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.buttons {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: flex;
+  gap: 6px;
+}
+
+.buttonEdit,
+.buttonSave,
+.buttonDelete {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  margin-left: 6px;
+}
+
+.buttonDelete {
+  color: #ff4d4d;
+}
+.buttonDelete:hover {
+  color: #cc0000;
+}
+
+.buttonEdit {
+  color: #0078ff;
+}
+.buttonEdit:hover {
+  color: #005fcc;
+}
+
+.buttonSave {
+  color: #28a745;
+}
+.buttonSave:hover {
+  color: #1b7d31;
+}
