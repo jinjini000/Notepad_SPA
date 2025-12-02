@@ -5,3 +5,15 @@ React를 활용하여 만든 메모장SPA 입니다.
 검색이 가능하며, 제목과 내용을 동시에 검색합니다.
 메모리스트를 클릭하면 세부사항을 볼 수 있습니다.
 
+## 설치 & 사용법 (Getting Started)  
+
+### 필요 환경  
+- Node.js (권장)  
+- npm 또는 yarn  
+
+### 설치  
+```bash
+git clone https://github.com/jinjini000/Notepad_SPA.git
+cd Notepad_SPA
+npm install
+
