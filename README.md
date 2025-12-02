@@ -14,7 +14,9 @@ React를 활용하여 만든 메모장SPA 입니다.
 ### 설치  
 ```bash
 git clone https://github.com/jinjini000/Notepad_SPA.git
+```bash
 cd Notepad_SPA
+```bash
 npm install
 ```
 
