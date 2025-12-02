@@ -7,7 +7,7 @@ import { useSearch } from "../../context/SearchContext";
 
 export default function Header() {
   const { writeMode, toggleWriteMode } = useWriteMode();
-  const { searchText, setSearchText } = useSearch();
+  const { setSearchText } = useSearch();
 
   const [text, setText] = useState("");
 

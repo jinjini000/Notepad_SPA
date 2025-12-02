@@ -8,7 +8,7 @@ export default function AddMemo({ onAdd }) {
   const [text, setText] = useState("");
   const handleTextChange = (e) => setText(e.target.value); // 입력한 값 표현(갱신)
   const handleTitleChange = (e) => setTitle(e.target.value);
-  const { writeMode, toggleWriteMode } = useWriteMode();
+  const { toggleWriteMode } = useWriteMode();
 
   const handleSubmit = (e) => {
     e.preventDefault();

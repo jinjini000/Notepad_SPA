@@ -1,4 +1,3 @@
-import { useState } from "react";
 import styles from "./App.module.css";
 import Header from "./components/Header/Header.jsx";
 import MemoList from "./components/MemoList/MemoList.jsx";
